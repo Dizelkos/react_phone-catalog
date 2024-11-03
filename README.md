@@ -54,7 +54,7 @@ Implement Home page at available at `/`.
    - The products with a discount starting from the biggest absolute value;
    - `<` and `>` buttons should scroll products.
 4. `Shop by category` block with links to `/phones`, `/tablets`, and `/accessories`.
-5. Add `Brand new` block using `ProductsSlider` with products without a discount starting from the most expensive.
+5. Add Brand new block using ProductsSlider with products that are the newest according to the year field.
 
 ## Product pages
 
@@ -81,7 +81,7 @@ Create `ProductDetailsPage` available at `/product/:productId`.
 1. `ProductCard` image and title should be links to the product details page.
 2. Use `Loader` when fetching the product details.
 3. Show the details on the page:
-   - Fix one `Available color` and one `Select capacity` value for now;
+   - Display the available colors from colorsAvailable and the capacities from capacityAvailable as radio inputs, allowing the selection of one value from the offered options;
    - `About` section should contain just a description (without any subheaders);
    - Choose `Tech specs` you want to show.
 4. Add the ability to choose a picture.
